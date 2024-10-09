@@ -3,9 +3,10 @@
     margin: 0;
     padding: 0;
 }
-header .container {
+body > header{
     background-color: #2f3640;
     padding: 16px 0;
+    color: #f5f6fa;
 }
     
 
@@ -13,10 +14,18 @@ header .container {
 
 
 header .container {
-    display: flex
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-header li {
+header li,
+a {
+    display: inline;
+    color: #f5f6fa;
+}
+
+header li{
     display: inline;
 }
 
@@ -28,7 +37,7 @@ header li {
 .articles {
     display: flex;
     flex-wrap: wrap ;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .articles article img {
@@ -54,7 +63,11 @@ section h2,
 }
 
 .articles article a {
-
+background-color: blue;
+color: #fff;
+padding: 8px;
+display: inline-block
+;
 }
 
 
